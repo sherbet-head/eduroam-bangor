@@ -11,6 +11,7 @@
 # NIC Driver:
 
 Firstly ensure that your network interface card has the correct driver loaded and is recognised. You can test this with
+	
 	$ip link show
 
 # Config File:
@@ -34,7 +35,9 @@ Save this file as eduroam.conf or something sensible. Take note of the path (may
 # Connection Script:
 
 Find the NIC identifier by typing
+
 	$ip link show
+	
 as suggested above.
 
 So for example your wireless device may be known as wlo1.
