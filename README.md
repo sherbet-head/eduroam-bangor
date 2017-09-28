@@ -54,4 +54,4 @@ Save this file as something like eduroamConnect.sh. This will be the script used
 
 To establish the connection, simply type into the terminal:
 
-	sh /PATH/eduroamConnect.sh
+	$sh /PATH/eduroamConnect.sh
